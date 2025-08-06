@@ -26,8 +26,3 @@ Lists pull requests in a specified repository.
 Draft pull requests are available in public repositories with GitHub Free and GitHub Free for organizations, GitHub Pro, and legacy per-repository billing plans, and in public and private repositories with GitHub Team and GitHub Enterprise Cloud. For more information, see GitHub's products in the GitHub Help documentation.
 
 This endpoint supports the following custom media types. For more information, see "Media types."
-
-application/vnd.github.raw+json: Returns the raw markdown body. Response will include . This is the default if you do not pass any specific media type.body
-application/vnd.github.text+json: Returns a text only representation of the markdown body. Response will include .body_text
-application/vnd.github.html+json: Returns HTML rendered from the body's markdown. Response will include .body_html
-application/vnd.github.full+json: Returns raw, text, and HTML representations. Response will include , , and .bodybody_textbody_html

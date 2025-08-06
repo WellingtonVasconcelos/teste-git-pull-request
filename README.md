@@ -40,6 +40,3 @@ This endpoint can be used without authentication or the aforementioned permissio
 
 Parameters for "List pull requests"
 Headers
-Name, Type, Description
-accept string
-Setting to is recommended.application/vnd.github+json

@@ -37,3 +37,9 @@ The fine-grained token must have the following permission set:
 
 "Pull requests" repository permissions (read)
 This endpoint can be used without authentication or the aforementioned permissions if only public resources are requested.
+
+Parameters for "List pull requests"
+Headers
+Name, Type, Description
+accept string
+Setting to is recommended.application/vnd.github+json

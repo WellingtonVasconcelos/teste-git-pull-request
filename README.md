@@ -26,3 +26,14 @@ Lists pull requests in a specified repository.
 Draft pull requests are available in public repositories with GitHub Free and GitHub Free for organizations, GitHub Pro, and legacy per-repository billing plans, and in public and private repositories with GitHub Team and GitHub Enterprise Cloud. For more information, see GitHub's products in the GitHub Help documentation.
 
 This endpoint supports the following custom media types. For more information, see "Media types."
+
+Fine-grained access tokens for "List pull requests"
+This endpoint works with the following fine-grained token types:
+
+GitHub App user access tokens
+GitHub App installation access tokens
+Fine-grained personal access tokens
+The fine-grained token must have the following permission set:
+
+"Pull requests" repository permissions (read)
+This endpoint can be used without authentication or the aforementioned permissions if only public resources are requested.

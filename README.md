@@ -19,3 +19,8 @@ review_comments: The API location of this pull request's review comments
 review_comment: The URL template to construct the API location for a review comment in this pull request's repository
 commits: The API location of this pull request's commits
 statuses: The API location of this pull request's commit statuses, which are the statuses of its branchhead
+
+List pull requests
+Lists pull requests in a specified repository.
+
+Draft pull requests are available in public repositories with GitHub Free and GitHub Free for organizations, GitHub Pro, and legacy per-repository billing plans, and in public and private repositories with GitHub Team and GitHub Enterprise Cloud. For more information, see GitHub's products in the GitHub Help documentation.
